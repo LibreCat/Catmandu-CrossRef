@@ -1,4 +1,7 @@
-
 {{NEXT}}
-	- successor of Catmandu::Importer::DOI, development will be here
+	- pod
+	- bug fix
+
+datetime
+	- successor of Catmandu::Importer::DOI, development will be continued here
 	- initial commit
