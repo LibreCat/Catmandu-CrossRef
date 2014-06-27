@@ -1,9 +1,12 @@
 package Catmandu::CrossRef;
-
+# ABSTRACT:
 
 our $VERSION = '0.001';
 
 1;
+__END__
+
+=encoding utf-8
 
 =head1 NAME
 
@@ -18,5 +21,10 @@ our $VERSION = '0.001';
 L<Catmandu::Importer::CrossRef>
 
 =back
+
+=head1 AUTHOR
+
+	Wouter Willaert <wouterw at inuits.eu>
+	Vitali Peil <vitali.peil at uni-bielefeld.de>
 
 =cut

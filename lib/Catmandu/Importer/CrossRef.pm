@@ -80,17 +80,15 @@ sub _get_record {
   return $self->_current_result;
 }
 
+sub to_array {
+  return [ $_[0]->_get_record ];
+}
 
-# sub to_array {
-#     return [ $_[0]->_get_record ];
-# }
+sub first {
+  return [ $_[0]->_get_record ];
+}
 
-# sub first {
-#     return [ $_[0]->_get_record ];
-# }
-
-# *last = \&first;
-
+*last = \&first;
 
 sub generator {
   my ($self) = @_;
@@ -128,7 +126,7 @@ sub generator {
 
 =head1 DESCRIPTION
 
-  This L<Catmandu::Importer> imports data from the CrossRef API given a DOI.
+  This L<Catmandu::Importer::CrossRef> imports data from the CrossRef API given a DOI.
 
 =head CONFIGURATION
 
