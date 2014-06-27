@@ -128,7 +128,7 @@ sub generator {
 
   This L<Catmandu::Importer::CrossRef> imports data from the CrossRef API given a DOI.
 
-=head CONFIGURATION
+=head1 CONFIGURATION
 
 =over
 
