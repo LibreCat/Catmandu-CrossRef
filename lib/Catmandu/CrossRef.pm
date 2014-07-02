@@ -1,7 +1,7 @@
 package Catmandu::CrossRef;
 # ABSTRACT:
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 1;
 __END__
