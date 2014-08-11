@@ -1,9 +1,10 @@
 package Catmandu::CrossRef;
-# ABSTRACT:
+# ABSTRACT: Base class for working with crossref data.
 
 our $VERSION = '0.003';
 
 1;
+
 __END__
 
 =encoding utf-8
@@ -34,10 +35,9 @@ L<Catmandu::Importer::CrossRef>
 
 =back
 
-=head1 AUTHORS
+=head1 AUTHOR
 
-* Wouter Willaert
-* Vitali Peil
+Vitali Peil
 
 =head1 COPYRIGHT AND LICENSE
 
