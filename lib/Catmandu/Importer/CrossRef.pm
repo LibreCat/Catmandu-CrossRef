@@ -21,7 +21,16 @@ has usr => ( is => 'ro', required => 1 );
 has pwd => ( is => 'ro', required => 0 );
 has fmt => ( is => 'ro', default  => sub {'unixref'} );
 
-has _api_key => ( is => 'lazy', builder => '_get_api_key' );
+has _api_key => (
+    is      => 'lazy',
+    builder => sub {
+        my ($self) = @_;
+
+        my $key = $self->usr;
+        $key .= ':' . $self->pwd if $self->pwd;
+        return $key;
+    }
+);
 
 sub _request {
     my ( $self, $url ) = @_;
@@ -46,14 +55,6 @@ sub _hashify {
 
     my $xml = Catmandu::Importer::XML->new( file => \$in );
     return $xml->to_array;
-}
-
-sub _get_api_key {
-    my ($self) = @_;
-
-    my $key = $self->usr;
-    $key .= ':' . $self->pwd if $self->pwd;
-    return $key;
 }
 
 sub _api_call {
@@ -82,7 +83,10 @@ sub generator {
 
     return sub {
         state $stack = $self->_get_record;
-        return pop @$stack;
+        my $rec = pop @$stack;
+        $rec->{doi_record}->{crossref}
+            ? return $rec->{doi_record}->{crossref}
+            : return undef;
     };
 }
 

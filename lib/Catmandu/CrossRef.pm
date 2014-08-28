@@ -11,16 +11,16 @@ __END__
 
 =head1 NAME
 
-	Catmandu::CrossRef - a bundle of Catmandu modules for working with data from CrossRef
+	Catmandu::CrossRef - Catmandu modules for working with crossref data
 
 =head1 STATUS
 
 =begin HTML
 
 <p>
-<img src="https://travis-ci.org/LibreCat/Catmandu-CrossRef.svg?branch=master" alt="build status" />
-<img src="https://coveralls.io/repos/LibreCat/Catmandu-CrossRef/badge.png?branch=master" alt="coverage status" />
-<img src="http://cpants.cpanauthors.org/dist/Catmandu-CrossRef.png" alt="kwalitee score" />
+<a href="https://travis-ci.org/LibreCat/Catmandu-CrossRef"><img src="https://travis-ci.org/LibreCat/Catmandu-CrossRef.svg?branch=master" alt="build status" /></a>
+<a href="https://coveralls.io/r/LibreCat/Catmandu-CrossRef"><img src="https://coveralls.io/repos/LibreCat/Catmandu-CrossRef/badge.png?branch=master" alt="coverage status" /></a>
+<a href="http://cpants.cpanauthors.org/dist/Catmandu-CrossRef"><img src="http://cpants.cpanauthors.org/dist/Catmandu-CrossRef.png" alt="kwalitee score" /></a>
 </p>
 
 =end HTML
