@@ -1,4 +1,5 @@
 package Catmandu::CrossRef;
+
 # ABSTRACT: Base class for working with crossref data.
 
 our $VERSION = '0.003';
@@ -11,7 +12,7 @@ __END__
 
 =head1 NAME
 
-	Catmandu::CrossRef - Catmandu modules for working with crossref data
+    Catmandu::CrossRef - Catmandu modules for working with crossref data
 
 =head1 STATUS
 
