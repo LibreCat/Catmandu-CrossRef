@@ -18,7 +18,7 @@ my %module_build_args = (
     "Vitali Peil"
   ],
   "dist_name" => "Catmandu-CrossRef",
-  "dist_version" => "0.004",
+  "dist_version" => "0.005",
   "license" => "perl",
   "module_name" => "Catmandu::CrossRef",
   "recommends" => {},

@@ -2,7 +2,7 @@ package Catmandu::CrossRef;
 
 # ABSTRACT: Base class for working with crossref data.
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 
 1;
 
