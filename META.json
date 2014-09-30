@@ -1,10 +1,10 @@
 {
-   "abstract" : "Base class for working with crossref data.",
+   "abstract" : "Catmandu modules for working with crossref data",
    "author" : [
       "Vitali Peil"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.5, Dist::Zilla version 5.016, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "Dist::Milla version v1.0.8, Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
    "license" : [
       "perl_5"
    ],
@@ -36,6 +36,7 @@
       },
       "develop" : {
          "requires" : {
+            "Dist::Milla" : "v1.0.8",
             "Test::Pod" : "1.41"
          }
       },
