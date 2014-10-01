@@ -1,6 +1,6 @@
 # NAME
 
-    Catmandu::CrossRef - Catmandu modules for working with crossref data
+Catmandu::CrossRef - Catmandu modules for working with crossref data
 
 # STATUS
 
@@ -16,10 +16,16 @@
 
 # AUTHOR
 
-Vitali Peil
+Vitali Peil `<vitali.peil at uni-bielefeld.de>`
 
-# COPYRIGHT AND LICENSE
+# CONTRIBUTORS
+
+Jakob Voss `<voss at gbv.de>`
+
+# COPYRIGHT
 
 This software is copyright (c) 2014 by Vitali Peil.
+
+# LICENSE
 
 This is free software; you can redistribute it and/or modify it under the same terms as the Perl 5 programming language system itself.
