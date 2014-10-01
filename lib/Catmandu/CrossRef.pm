@@ -37,7 +37,11 @@ L<Catmandu::Importer::CrossRef>
 
 =head1 AUTHOR
 
-Vitali Peil
+Vitali Peil C<< <vitali.peil at uni-bielefeld.de> >>
+
+=head1 CONTRIBUTORS
+
+Jakob Voss C<< <voss at gbv.de> >>
 
 =head1 COPYRIGHT
 
