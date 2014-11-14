@@ -18,9 +18,14 @@ Catmandu::CrossRef - Catmandu modules for working with crossref data
 
 Vitali Peil `<vitali.peil at uni-bielefeld.de>`
 
-# CONTRIBUTORS
+# CONTRIBUTOR
 
 Jakob Voss `<voss at gbv.de>`
+
+# MAINTAINER
+
+- Vitali Peil `<vitali.peil at uni-bielefeld.de>`
+- Christian Pietsch `<cpietsch+librecat at uni-bielefeld.de>`
 
 # COPYRIGHT
 
