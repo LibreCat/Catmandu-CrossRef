@@ -4,12 +4,6 @@ Catmandu::CrossRef - Catmandu modules for working with crossref data
 
 # STATUS
 
-<p>
-<a href="https://travis-ci.org/LibreCat/Catmandu-CrossRef"><img src="https://travis-ci.org/LibreCat/Catmandu-CrossRef.svg?branch=master" alt="build status" /></a>
-<a href="https://coveralls.io/r/LibreCat/Catmandu-CrossRef"><img src="https://coveralls.io/repos/LibreCat/Catmandu-CrossRef/badge.png?branch=master" alt="coverage status" /></a>
-<a href="http://cpants.cpanauthors.org/dist/Catmandu-CrossRef"><img src="http://cpants.cpanauthors.org/dist/Catmandu-CrossRef.png" alt="kwalitee score" /></a>
-</p>
-
 # MODULES
 
 - [Catmandu::Importer::CrossRef](https://metacpan.org/pod/Catmandu::Importer::CrossRef)
